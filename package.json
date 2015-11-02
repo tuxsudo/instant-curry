@@ -1,0 +1,36 @@
+{
+  "name": "instant-curry",
+  "version": "1.0.0",
+  "description": "Lightweight Function Currying",
+  "main": "dist/index.js",
+  "jsnext:main": "index.js",
+  "scripts": {
+    "test": "babel-node test/test.js | tap-spec",
+    "build": "babel index.js > dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/instant-curry.git"
+  },
+  "keywords": [
+    "curry",
+    "function-currying",
+    "functional"
+  ],
+  "author": "Jared Anderson @tuxsudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/instant-curry/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/instant-curry#readme",
+  "devDependencies": {
+    "babel-cli": "^6.0.15",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
