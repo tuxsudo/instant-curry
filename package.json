@@ -1,8 +1,8 @@
 {
   "name": "instant-curry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Function Currying",
-  "main": "dist/index.js",
+  "main": "common.js",
   "jsnext:main": "index.js",
   "scripts": {
     "test": "babel-node test/test.js | tap-spec",
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/tuxsudo/instant-curry#readme",
   "devDependencies": {
-    "babel-cli": "^6.0.15",
+    "babel-cli": "^6.1.1",
+    "babel-preset-es2015": "^6.0.15",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.2"
   },
