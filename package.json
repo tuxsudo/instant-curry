@@ -1,6 +1,6 @@
 {
   "name": "instant-curry",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Lightweight Function Currying",
   "main": "common.js",
   "jsnext:main": "index.js",
